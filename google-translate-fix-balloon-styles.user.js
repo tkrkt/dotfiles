@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name        [GoogleTranslate] Fix balloon styles
-// @namespace   https://gist.github.com/tkrkt
+// @description fix broken ballon styles
+// @namespace   https://github.com/tkrkt/userscripts
 // @include     http://translate.googleusercontent.com/*
 // @version     1
 // @grant       none
