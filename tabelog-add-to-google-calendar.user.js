@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [tabelog] Add to Google Calendar
-// @namespace    https://gist.github.com/tkrkt
 // @description  Add current shop to Google Calendar from send link (need to fix start/end date)
+// @namespace    https://github.com/tkrkt/userscripts
 // @version      1
 // @match        https://tabelog.com/*
 // @grant        none
