@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        [Azusaar] Dialog closer
-// @namespace   https://gist.github.com/tkrkt
 // @description close the dialog by clicking outside
+// @namespace   https://github.com/tkrkt/userscripts
 // @include     http://azusaar.appspot.com/*
 // @version     1
 // @grant       none
