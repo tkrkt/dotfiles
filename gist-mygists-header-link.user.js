@@ -3,6 +3,7 @@
 // @description Add "MyGists" link into header
 // @namespace   https://github.com/tkrkt/userscripts
 // @include     https://gist.github.com/*
+// @author      tkrkt
 // @version     3
 // @grant       none
 // ==/UserScript==
