@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        [Feedly] Scroll to Top
-// @namespace   https://gist.github.com/tkrkt
 // @description Add "Scroll to Top" button to header
+// @namespace   https://github.com/tkrkt/userscripts
 // @version      4
 // @include     https://feedly.com/*
 // @grant        none
