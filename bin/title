@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# @(#)
+# @(#) Usage: title [text]
+# @(#)
+# @(#) set title of the terminal tab
+# @(#)
+
+# check argument count
+if [ $# -eq 0 ]; then
+  what "$0" 1>&2
+  exit 1
+fi
+
+echo -ne "\033]0;${@}\007\c"

@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# @(#)
+# @(#) Usage: cdf
+# @(#)
+# @(#) cd to the active finder location
+# @(#)
+
+# check argument count
+argc=0
+if [ $# -ne $argc ]; then
+  what "$0" 1>&2
+  exit 1
+fi
+
+target=`osascript -e 'tell application "Finder" to if (count of Finder windows) > 0 then get POSIX path of (target of front Finder window as text)'`
+if [ "$target" != "" ]
+then
+  cd "$target"
+  pwd
+else
+  echo 'No Finder window found' >&2
+fi

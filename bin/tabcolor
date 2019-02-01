@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# @(#)
+# @(#) Usage: tabcolor [r] [g] [b]
+# @(#)
+# @(#) set color of the iTerm2 tab
+# @(#)
+
+# check argument count
+argc=3
+if [ $# -ne $argc ]; then
+  what "$0" 1>&2
+  exit 1
+fi
+
+echo -ne "\033]6;1;bg;red;brightness;$1\a"
+echo -ne "\033]6;1;bg;green;brightness;$2\a"
+echo -ne "\033]6;1;bg;blue;brightness;$3\a"

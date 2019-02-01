@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# @(#)
+# @(#) Usage: tabreset
+# @(#)
+# @(#) reset color of the iTerm2 tab
+# @(#)
+
+# check argument count
+argc=0
+if [ $# -ne $argc ]; then
+  what "$0" 1>&2
+  exit 1
+fi
+
+echo -ne "\033]6;1;bg;*;default\a"
