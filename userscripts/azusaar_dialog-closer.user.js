@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        [Azusaar] Dialog closer
 // @description close the dialog by clicking outside
-// @namespace   https://github.com/tkrkt/userscripts
+// @namespace   https://github.com/tkrkt
 // @include     http://azusaar.appspot.com/*
 // @version     1
 // @grant       none
@@ -14,7 +14,7 @@ const isDialogElement = e => {
     return isDialogElement(e.parentElement);
   } else {
     return false;
-  }  
+  }
 }
 
 const closeAllDialogs = () => {

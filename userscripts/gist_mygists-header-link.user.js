@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        [Gist] MyGists Header Link
 // @description Add "MyGists" link into header
-// @namespace   https://github.com/tkrkt/userscripts
+// @namespace   https://github.com/tkrkt
 // @include     https://gist.github.com/*
 // @author      tkrkt
 // @version     3

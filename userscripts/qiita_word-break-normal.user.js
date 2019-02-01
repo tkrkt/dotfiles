@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [Qiita] word-break normal
 // @description  add `word-break: normal` into qiita article
-// @namespace    https://github.com/tkrkt/userscripts
+// @namespace    https://github.com/tkrkt
 // @version      1
 // @author       tkrkt
 // @match        https://qiita.com/*

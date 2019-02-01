@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [Google] Do not sort tabs Google
 // @description  Fix order of tabs on google search
-// @namespace    https://github.com/tkrkt/userscripts
+// @namespace    https://github.com/tkrkt
 // @version      3
 // @author       tkrkt
 // @include      https://www.google.co.jp/search*

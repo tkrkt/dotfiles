@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        [Feedly] Sort by engagement
 // @description Add "Sort by engagement" button to header
-// @namespace   https://github.com/tkrkt/userscripts
+// @namespace   https://github.com/tkrkt
 // @include     https://feedly.com/*
 // @version     7
 // @grant       none

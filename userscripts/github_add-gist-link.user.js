@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        [GitHub] Add gist link
 // @description Add Gist link into user profile page
-// @namespace   https://github.com/tkrkt/userscripts
+// @namespace   https://github.com/tkrkt
 // @include     https://github.com/*
 // @exclude     https://github.com/*/*
 // @author      tkrkt
